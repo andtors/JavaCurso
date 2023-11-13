@@ -1,0 +1,17 @@
+package entities;
+
+public class numbers {
+	
+	
+	private double number;
+	public double getNumbers() {
+		return numbers;
+	}
+
+	public void setNumbers(double numbers) {
+		this.numbers = numbers;
+	}
+
+	
+	
+}

@@ -1,0 +1,22 @@
+package application;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("How many rooms will be rented? ");
+		int n = sc.nextInt();
+		
+		/*String[] nomes =  new String [n]
+		 * int [] idades = new int[n]
+		 * double[] alturas = new double[n]*/
+		
+		
+		sc.close();
+	
+	
+	}
+
+}

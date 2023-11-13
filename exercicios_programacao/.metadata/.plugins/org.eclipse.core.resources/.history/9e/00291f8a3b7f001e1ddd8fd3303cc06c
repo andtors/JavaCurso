@@ -1,0 +1,7 @@
+package entities;
+
+public class Students {
+	private String name;
+	private double score;
+	
+}

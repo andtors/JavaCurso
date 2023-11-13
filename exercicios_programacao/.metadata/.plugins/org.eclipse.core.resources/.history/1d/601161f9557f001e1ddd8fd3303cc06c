@@ -1,0 +1,34 @@
+package application;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("How many rooms will be rented? ");
+		int n = sc.nextInt();
+		
+		String[] name = new String[n];
+		String[] email = new String[n];
+		int[] room = new int[n];
+		
+		for (int i=0; i<n; i++) {
+			System.out.println("Enter name:");
+			name[i] = sc.next();
+		}
+		for (int i=0; i<n; i++) {
+			System.out.println(name[i]);
+		}
+		
+		/*String[] nomes =  new String [n]
+		 * int [] idades = new int[n]
+		 * double[] alturas = new double[n]*/
+		
+		
+		sc.close();
+	
+	
+	}
+
+}

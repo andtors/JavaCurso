@@ -1,0 +1,43 @@
+package entities;
+
+public class Functions {
+	private int account;
+	private String name;
+	private double balance;
+
+	
+	
+	
+	public Functions(int account, String name) {
+		this.account = account;
+		this.name = name;
+
+	}
+
+	
+	public int getAccount() {
+		return account;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public double getBalance() {
+		return balance;
+	}
+	
+	public double deposit (double moneydepo) {
+		return moneydepo += balance;
+	}
+	
+	public double withdraw (double moneywith) {
+		return moneywith -= balance;
+	}
+	
+}
+	

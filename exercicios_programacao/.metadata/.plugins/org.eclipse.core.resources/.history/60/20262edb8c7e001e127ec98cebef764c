@@ -1,0 +1,27 @@
+package application;
+
+import java.util.Scanner;
+
+import entities.Numbers;
+
+public class Program {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Quantos numeros vai digitar?");
+		int n = sc.nextInt();
+		
+		Numbers[] vect = new Numbers[n];
+		
+		for (int i=0; i<vect.length; i++) {
+			sc.nextLine();
+			double numero = sc.nextDouble();
+			vect[i] = new Numbers(numbers);
+		}
+		
+		
+		sc.close();
+
+	}
+
+}

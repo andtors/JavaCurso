@@ -1,0 +1,11 @@
+package util;
+
+public class CurrencyConverter {
+	public  final double IOF = 6;
+	
+	public  double dolarfinal (double dollarprice, double dollarbought) {
+		return dollarprice * dollarbought;
+	}
+	
+
+}
