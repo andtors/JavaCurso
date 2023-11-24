@@ -1,4 +1,5 @@
 INDEX VERSION 1.132+E:\Projetos Programação\ws-Java\exercicios_programacao\.metadata\.plugins\org.eclipse.jdt.core
+3869718678.index
 1061902023.index
 3639835584.index
 1236272590.index
@@ -20,11 +21,10 @@ INDEX VERSION 1.132+E:\Projetos Programação\ws-Java\exercicios_programacao\.meta
 1710264852.index
 2698223867.index
 4047137463.index
-2722517772.index
 4115632005.index
 1052194136.index
-942052062.index
 1883670652.index
+942052062.index
 2464531065.index
 2348741432.index
 209803226.index
@@ -34,7 +34,6 @@ INDEX VERSION 1.132+E:\Projetos Programação\ws-Java\exercicios_programacao\.meta
 1212966481.index
 2072405836.index
 2605944402.index
-3525049191.index
 4220782519.index
 2814272738.index
 2842029264.index
