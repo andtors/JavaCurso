@@ -8,7 +8,7 @@ public abstract class Account {
 	protected Double balance;
 	
 	public Account() {
-		
+		 
 	}
 
 	public Integer getNumber() {
