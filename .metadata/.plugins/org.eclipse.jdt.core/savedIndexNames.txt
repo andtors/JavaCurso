@@ -5,8 +5,6 @@ INDEX VERSION 1.132+E:\Projetos Programação\ws-Java\.metadata\.plugins\org.eclip
 1169372468.index
 316776416.index
 1495056461.index
-2745269957.index
-367484815.index
 3151855782.index
 945034477.index
 3785897705.index
@@ -20,8 +18,8 @@ INDEX VERSION 1.132+E:\Projetos Programação\ws-Java\.metadata\.plugins\org.eclip
 3323181015.index
 3330931202.index
 242152063.index
-1948604707.index
 3968681466.index
+1948604707.index
 23888808.index
 1515407205.index
 2952403426.index
@@ -31,7 +29,6 @@ INDEX VERSION 1.132+E:\Projetos Programação\ws-Java\.metadata\.plugins\org.eclip
 3523319992.index
 1865797976.index
 2762186266.index
-2753607877.index
 2424228685.index
 874475837.index
 214337789.index
