@@ -15,6 +15,13 @@ public class Program {
 
 	public static void main(String[] args) throws ParseException {
 
+		/*A logica da interface seria o seguinte:
+		 * 
+		 * Numa classe tipo interface nesse caso a OnlinPaymentService, criaremos os metodos que iremos atribuir a todas as outras classes implementadas a ela,
+		 * na PaypalService, que é uma classe implementada a ela, criaremos a lógica que deve ser seguida.
+		 * e por fim, na ContractService, iremos criar a condição em que ela deve ser executda, neste caso ela precisa ser executada e ser inserida numa lista
+		 * */
+				
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
