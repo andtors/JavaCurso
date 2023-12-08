@@ -23,7 +23,6 @@ public class Program {
 		String s2 = new String ("Test");
 		//Como está sendo criado um objeto apesar dos dados serem iguais o compilador retorna como falso
 		
-		
 		System.out.println(c1.hashCode());
 		System.out.println(c2.hashCode());		
 		System.out.println(c1.equals(c2));		
