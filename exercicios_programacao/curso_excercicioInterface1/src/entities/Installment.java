@@ -1,34 +1,47 @@
 package entities;
 
-import java.time.LocalDateTime;
-import java.util.Date;
+import java.time.LocalDate;
 
-public class Installment {
+public class Installment{
 	
-	private LocalDateTime dueDate;
+	private LocalDate dueDate;
 	private Double amount;
 	
-	public LocalDateTime getDueDate() {
+	
+
+	public Installment(LocalDate dueDate, Double amount) {
+		this.dueDate = dueDate;
+		this.amount = amount;
+		
+	}
+
+	public LocalDate getDueDate() {
 		return dueDate;
 	}
-	public void setDueDate(LocalDateTime dueDate) {
+
+	public void setDueDate(LocalDate dueDate) {
 		this.dueDate = dueDate;
 	}
+
 	public Double getAmount() {
 		return amount;
 	}
+
 	public void setAmount(Double amount) {
 		this.amount = amount;
 	}
-	public Installment(Double amount, LocalDateTime dueDate) {
-		this.dueDate = dueDate;
-		this.amount = amount;
-	}	
+
+	@Override
+	public String toString() {
+		return dueDate + " - " + amount;
+	}
 
 	
 	
-	public Installment(Double amount) {
-		this.amount = amount;
-	}
+	
+	
+	
+	
+	
 	
 }
